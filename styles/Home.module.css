@@ -1,6 +1,6 @@
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,9 +16,16 @@
   align-items: center;
 }
 
+.sharing{
+  margin: 30px 0px;
+  font-size: 40px;
+  color: #003360;
+}
+
 .footer {
   width: 100%;
   height: 100px;
+  background-color: #003360;
   border-top: 1px solid #eaeaea;
   display: flex;
   justify-content: center;
@@ -33,6 +40,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #ffffff;
 }
 
 .title a {
@@ -120,3 +128,4 @@
     flex-direction: column;
   }
 }
+

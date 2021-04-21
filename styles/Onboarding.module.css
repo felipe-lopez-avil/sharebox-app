@@ -1,0 +1,46 @@
+.row{
+    width: 100%;
+    height: 500px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px;
+    position: relative;
+}
+
+.center {
+    display: block;
+}
+
+.imageContainer {
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.image{
+    width: 300px;
+    margin: 0px auto;
+}
+
+.Onboarding{
+    width: 75%;
+    margin: 0;
+    position: absolute;
+    top: 15%;
+}
+
+.Onboarding h2, 
+.Onboarding p{
+    color: #003360;
+}
+
+.Onboarding p{
+    font-size: 18px;
+}
+
+.Onboarding button{
+    margin-top: 30px;
+}
