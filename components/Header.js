@@ -7,7 +7,9 @@ const Header = () => {
         <>
         <header>
             <div className="logo_container">
-                <img className="header-logo" src="https://cdn.shopify.com/s/files/1/0456/6820/4706/files/Sharebox_editable-17_180x.png?v=1605634439"></img>
+                <a>
+                    <img className="header-logo" src="https://cdn.shopify.com/s/files/1/0456/6820/4706/files/Sharebox_editable-17_180x.png?v=1605634439"></img>
+                </a>
             </div>
             <div className="nav_container">
                 <nav>
@@ -24,12 +26,16 @@ const Header = () => {
                     <ul className="nav-icons">
                         <li className="icon-item">
                             <div className="icon">
-                                <ShoppingBasketIcon/>
+                                <a>
+                                    <ShoppingBasketIcon/>
+                                </a>
                             </div>
                         </li>
                         <li className="icon-item">
                             <div className="icon">
-                                <PersonIcon/>
+                                <a>
+                                    <PersonIcon/>
+                                </a>
                             </div>
                         </li>
                     </ul>
