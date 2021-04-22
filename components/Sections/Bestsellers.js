@@ -8,8 +8,11 @@ import styles from '../../styles/Bestsellers.module.css'
 const Bestsellers = () => {
     return (
         <>
-            {products.map(product => (
-                <div className={styles.productsContainer}>
+            <div className={styles.section_title}>
+                <h3>NUESTRAS BOXES MÁS POPULARES</h3>
+            </div>
+            <div className={styles.productsContainer}>
+                {products.map(product => (
                     <Link href={`/products/${product.slug}`}>
                         <div className={styles.productContainer}>
                             <div className={styles.productImg}>
@@ -27,8 +30,8 @@ const Bestsellers = () => {
                             </div>
                         </div>
                     </Link>
-                </div>
-            ))}
+                ))}
+            </div>
         </>
     )
 }
