@@ -21,14 +21,46 @@ li, a {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   align-items: center;
-  padding: 18px 5%;
+  padding: 25px 0px;
+  text-align: center;
 }
 
+.logo_container {
+  width: 25%;
+  position: relative;
+}
+
+.logo_container img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav_container{
+  width: 50%;
+}
+
+.icons_container{
+  width: 25%;
+}
 
 .header-logo {
-  width: 150px;
+  width: 180px;
+}
+
+.icon-item {
+  position: relative;
+  margin: 0px 8px;
+}
+
+.icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .nav-links, .nav-icons {
