@@ -1,11 +1,12 @@
 import React from 'react'
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import PersonIcon from '@material-ui/icons/Person';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const Header = () => {
     return (
         <>
-        <header>
+        <header className="desktop-header">
             <div className="logo_container">
                 <a>
                     <img className="header-logo" src="https://cdn.shopify.com/s/files/1/0456/6820/4706/files/Sharebox_editable-17_180x.png?v=1605634439"></img>

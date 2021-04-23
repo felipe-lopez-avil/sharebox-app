@@ -12,7 +12,7 @@ const Onboarding = () => {
         <div className={styles.row}>
             <div className={styles.column}>
                 <div className={styles.imageContainer}>
-                    <img src={fromImageToUrl(onboardingImage.image)} className={styles.center} align="right"/>
+                    <img src={fromImageToUrl(onboardingImage.image)}/>
                 </div>
             </div>
             <div className={styles.column}>

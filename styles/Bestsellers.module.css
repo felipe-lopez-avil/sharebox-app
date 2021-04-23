@@ -57,6 +57,10 @@
     flex-direction: column;
 }
 
+.type span{
+    color: rgba(96, 132, 167, 0.714);
+}
+
 .overlay{
     position: absolute;
     left: 50%;

@@ -44,18 +44,21 @@
 }
 
 .cart_btn{
-
+    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
+    .product_container{
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     .product_row{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    .product_container{
-        height: 90vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .img_display{
+        padding: 0px 40px;
     }
 }

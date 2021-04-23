@@ -1,35 +1,14 @@
-.row{
+.column{
+    padding: 0px 30px;
+}
+
+.imageContainer img{
     width: 100%;
-    height: 500px;
-}
-
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 500px;
-    position: relative;
-}
-
-.center {
-    display: block;
-}
-
-.imageContainer {
-    width: 100%;
-    padding: 0px 15px;
-}
-
-.image{
-    width: 300px;
-    margin: 0px auto;
 }
 
 .Onboarding{
-    width: 75%;
-    margin: 0;
-    position: absolute;
-    top: 15%;
+    margin-top: 10px;
+    text-align: center;
 }
 
 .Onboarding h2, 
@@ -37,10 +16,15 @@
     color: #003360;
 }
 
+.Onboarding h2{
+    text-align: center;
+}
+
 .Onboarding p{
-    font-size: 18px;
+    font-weight: 500;
 }
 
 .Onboarding button{
-    margin-top: 30px;
+    margin-top: 25px;
+    width: 100%;
 }
