@@ -28,3 +28,24 @@
     margin-top: 25px;
     width: 100%;
 }
+
+@media (min-width: 475px) {
+    .row{
+        width: 80%;
+        display: flex;
+    }
+    .column{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .Onboarding{
+        text-align: left;
+    }
+    .Onboarding h2{
+        text-align: left;
+    }
+    .Onboarding button{
+        width: initial;
+    }
+}
