@@ -18,6 +18,10 @@ nav{
   background: #ffffff;
 }
 
+header{
+  border-bottom: 1px solid #dddcdc;
+}
+
 nav a {
   color: #003360;
   text-decoration: none; 
@@ -184,6 +188,17 @@ button{
 button:hover {
   background-color: #ffffff;
   color: #0188b3;
+}
+
+.content{
+  min-height: 100vh;
+  width: 100%;
+}
+
+.collection{
+  text-align: center;
+  color: #003360;
+  padding: 60px 5%;
 }
 
 @media(min-width: 1120px){

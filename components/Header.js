@@ -23,14 +23,14 @@ const Header = () => {
                 <ul className="menu">
                     <li className="logo">
                         <div className="logo_container">
-                            <a>
+                            <a href="http://localhost:3000/">
                                 <img className="header_logo" src="https://cdn.shopify.com/s/files/1/0456/6820/4706/files/Sharebox_editable-17_180x.png?v=1605634439"></img>
                             </a>
                         </div>
                     </li>
                     <div className= {click ? ('item nav_container_active') : ('item nav_container_innactive')}>
                         <li className="item has_submenu">
-                            <a tabIndex="0">Box to Go!</a>
+                            <a tabIndex="0" href="http://localhost:3000/box-to-go">Box to Go!</a>
                             <ul className="submenu">
                                 <li className="subitem"><a href="#">All boxes</a></li>
                                 <li className="subitem"><a href="#">For Him</a></li>
